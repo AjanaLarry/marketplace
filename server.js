@@ -14,7 +14,7 @@ app.use("/api", routes);
 
 //Mongoose Connection
 mongoose.connect(
-  "mongodb+srv://ajlarry:NXal2kgAEwZYMi5A@larrycluster.9smsznj.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://<username>:<password>@larrycluster.9smsznj.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
